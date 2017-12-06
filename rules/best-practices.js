@@ -9,7 +9,7 @@ module.exports = {
     'default-case': 'error',
     'dot-location': 'error',
     'dot-notation': ['error', {
-        allowKeywords: false
+        'allowKeywords': false
     }],
     'eqeqeq': 'error',
     'guard-for-in': 'error',
@@ -18,7 +18,7 @@ module.exports = {
     'no-case-declarations': 'error',
     'no-div-regex': 'error',
     'no-else-return': ['error', {
-        allowElseIf: false
+        'allowElseIf': false
     }],
     'no-empty-function': 'error',
     'no-empty-pattern': 'error',
@@ -39,12 +39,12 @@ module.exports = {
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
     'no-magic-numbers': ['error', {
-        ignoreArrayIndexes: true,
-        enforceConst: true
+        'ignoreArrayIndexes': true,
+        'enforceConst': true
     }],
     'no-multi-spaces': ['error', {
-        exceptions: {
-            Property: false
+        'exceptions': {
+            'Property': false
         }
     }],
     'no-multi-str': 'error',
@@ -54,56 +54,56 @@ module.exports = {
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-param-reassign': ['warn', {
-        props: true
+        'props': true
     }],
     'no-proto': 'error',
     'no-redeclare': ['error', {
-        builtinGlobals: true
+        'builtinGlobals': true
     }],
     'no-restricted-properties': ['error', {
-        object: 'arguments',
-        property: 'callee',
-        message: '\'arguments.callee\' is deprecated.'
+        'object': 'arguments',
+        'property': 'callee',
+        'message': '\'arguments.callee\' is deprecated.'
     }, {
-        property: '__defineGetter__',
-        message: 'Please use Object.defineProperty instead.'
+        'property': '__defineGetter__',
+        'message': 'Please use Object.defineProperty instead.'
     }, {
-        property: '__defineSetter__',
-        message: 'Please use Object.defineProperty instead.'
+        'property': '__defineSetter__',
+        'message': 'Please use Object.defineProperty instead.'
     }, {
-        object: 'Math',
-        property: 'pow',
-        message: 'Use the exponentiation operator (**) instead.'
+        'object': 'Math',
+        'property': 'pow',
+        'message': 'Use the exponentiation operator (**) instead.'
     }, {
-        object: 'global',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead.'
+        'object': 'global',
+        'property': 'isFinite',
+        'message': 'Please use Number.isFinite instead.'
     }, {
-        object: 'self',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead.'
+        'object': 'self',
+        'property': 'isFinite',
+        'message': 'Please use Number.isFinite instead.'
     }, {
-        object: 'window',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead.'
+        'object': 'window',
+        'property': 'isFinite',
+        'message': 'Please use Number.isFinite instead.'
     }, {
-        object: 'global',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead.'
+        'object': 'global',
+        'property': 'isNaN',
+        'message': 'Please use Number.isNaN instead.'
     }, {
-        object: 'self',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead.'
+        'object': 'self',
+        'property': 'isNaN',
+        'message': 'Please use Number.isNaN instead.'
     }, {
-        object: 'window',
-        property: 'isNaN',
-        message: 'Please use Number.isNaN instead.'
+        'object': 'window',
+        'property': 'isNaN',
+        'message': 'Please use Number.isNaN instead.'
     }],
     'no-return-assign': ['error', 'always'],
     'no-return-await': 'error',
     'no-script-url': 'error',
     'no-self-assign': ['error', {
-        props: true
+        'props': true
     }],
     'no-self-compare': 'error',
     'no-sequences': 'error',
@@ -117,7 +117,7 @@ module.exports = {
     'no-useless-return': 'error',
     'no-void': 'error',
     'no-warning-comments': ['warn', {
-        location: 'anywhere'
+        'location': 'anywhere'
     }],
     'no-with': 'error',
     'prefer-promise-reject-errors': 'error',
@@ -125,7 +125,7 @@ module.exports = {
     'require-await': 'off',
     'vars-on-top': 'error',
     'wrap-iife': ['error', 'inside', {
-        functionPrototypeMethods: true
+        'functionPrototypeMethods': true
     }],
     'yoda': 'error'
 };
