@@ -8,7 +8,6 @@ module.exports = {
         //'./rules/stylistic-issues',
         //'./rules/es6'
     ].map(require.resolve),
-
     parserOptions: {
         ecmaVersion: 2017,
         sourceType: 'module',
