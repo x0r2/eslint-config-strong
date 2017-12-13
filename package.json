@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strong",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Strong ESLint config.",
   "author": "x0r2",
   "license": "MIT",
