@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-strong",
+  "version": "0.1.0",
+  "description": "Strong ESLint config.",
+  "author": "x0r2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x0r2/eslint-config-strong.git"
+  },
+  "keywords": [
+    "strong eslint config",
+    "eslint config",
+    "eslint"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
