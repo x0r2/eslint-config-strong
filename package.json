@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strong",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Strong ESLint config.",
   "author": "x0r2",
   "license": "MIT",
@@ -16,5 +16,8 @@
   "files": [
     "index.js",
     "rules"
-  ]
+  ],
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1"
+  }
 }
